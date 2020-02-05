@@ -130,7 +130,7 @@ INDEX_NEW_FILE = "-1"
 ERRNO = -2
 LOG_EXTENSION = ".txt"
 MAX_LOG_ENTRIES = "MaxEntries"
-PATH = "/opt/collectd/var/lib/"
+PATH = "/opt/sfapm/collectd/var/lib/"
 WRITE_JSON_ENABLED = True
 FACTOR = 1024
 BITFACTOR = 8
@@ -174,7 +174,7 @@ db_query_5 = 'show global status where VARIABLE_NAME like "Created_tmp_files" or
 PROCESS = "process"
 PROCESS_STATE = "_processState"
 JVM_STATS = "jvm"
-JVM_DATA_PATH = "/opt/collectd/var/lib/data/jvm"
+JVM_DATA_PATH = "/opt/sfapm/collectd/var/lib/data/jvm"
 
 # APACHE CONSTANTS
 DEFAULT_LOCATION = "server-status"
